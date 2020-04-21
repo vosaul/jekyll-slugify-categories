@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
   spec.name          = 'jekyll-slugify-categories'
-  spec.version       = '0.1.0'
+  spec.version       = '0.1.1'
   spec.authors       = %w[f]
   spec.email         = %w[f@sutty.nl]
 
   spec.summary       = 'Slugifies categories in post URLs'
-  spec.homepage      = "https://0xacab.org/sutty/jekyll/jekyll-#{spec.name}"
+  spec.homepage      = "https://0xacab.org/sutty/jekyll/#{spec.name}"
   spec.license       = 'GPL-3.0'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
     '--quiet'
   ]
 
-  spec.required_ruby_version = '~> 2.6.0'
+  spec.required_ruby_version = '~> 2'
 
   spec.add_dependency 'jekyll', '~> 4'
 end
