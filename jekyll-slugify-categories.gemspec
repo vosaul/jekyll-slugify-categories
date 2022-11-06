@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
     '--quiet'
   ]
 
-  spec.required_ruby_version = '~> 2'
+  spec.required_ruby_version = '~> 3'
 
   spec.add_dependency 'jekyll', '~> 4'
 end
