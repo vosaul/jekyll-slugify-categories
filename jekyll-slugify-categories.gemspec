@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Slugifies categories in post URLs'
   spec.homepage      = "https://0xacab.org/sutty/jekyll/#{spec.name}"
   spec.license       = 'GPL-3.0'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
+  spec.required_ruby_version = Gem::Requirement.new('>= 3.1.2')
 
   spec.metadata = {
     'bug_tracker_uri' => "#{spec.homepage}/issues",
